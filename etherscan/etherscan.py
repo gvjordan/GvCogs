@@ -1,16 +1,16 @@
-import discord
 import requests
+import discord
 from discord.ext import commands
 
-class etherscan:
+class Etherscan:
 
-    def __init__(self, bot)
+    def __init__(self, bot):
         self.bot = bot
 
     @commands.command()
-    async def gvcoinsuspply(self):
-    	# TEST
-        await self.bot.say("GVCOIN: 100,000,000,000")
+    async def gvsupply(self):
+
+        await self.bot.say("GVC: 100,000,000,000")
 
 def setup(bot):
-    bot.add_cog(etherscan(bot))
+    bot.add_cog(Etherscan(bot))
