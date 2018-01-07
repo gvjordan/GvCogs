@@ -1,0 +1,9 @@
+{
+    "AUTHOR" : "GvJordan",
+    "SHORT" : "Etherscan API",
+    "DESCRIPTION" : "Access Etherscan's API",
+    "DISABLED" : false,
+    "NAME" : "Etherscanner",
+    "TAGS" : ["crypto", "api"],
+    "INSTALL_MSG" : "`[p]etherscan help for help`"
+}
